@@ -1,0 +1,18 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: azure;
+}
+
+.todo--title {
+  margin-left: 5px;
+}
+
+.close-btn {
+  background: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

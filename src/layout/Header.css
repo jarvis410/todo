@@ -1,0 +1,18 @@
+header {
+  background-color: teal;
+  color: white;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: gold;
+}
