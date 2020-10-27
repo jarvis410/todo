@@ -3,3 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}

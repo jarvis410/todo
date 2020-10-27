@@ -1,6 +1,6 @@
 .add-form {
   display: flex;
-  padding: 5px 10px;
+  padding: 0.5em 1em;
   background-color: whitesmoke;
 }
 
@@ -14,13 +14,16 @@ input:focus {
 }
 
 .add-input {
+  font-size: 0.8rem;
+  padding: 0.75em 1em;
+  margin-right: 1em;
   flex: 10;
-  padding: 5px 10px;
-  margin-right: 10px;
 }
 
 .add-submit {
   flex: 1;
+  padding: 0.75em 1em;
+  font-weight: 600;
   cursor: pointer;
   background-color: lime;
 }

@@ -11,11 +11,11 @@ export class App extends Component {
   render() {
     return (
       <Router>
-        <div>
           <Header />
-          <Route exact path="/" component={Todos} />
-          <Route path="/about" component={About} />
-        </div>
+          <div className="container">
+            <Route exact path="/" component={Todos} />
+            <Route path="/about" component={About} />
+          </div>
       </Router>
     )
   }

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
     return (
         <header>
-            <h1>Todo App</h1>
+            <div className="title">Todo App</div>
             <div className="links">
                 <Link to="/" className="link">Home</Link>
                 <Link to="/about" className="link">Why Todo App?</Link>
